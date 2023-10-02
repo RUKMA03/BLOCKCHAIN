@@ -1,0 +1,14 @@
+ERC20 Token
+
+A token, or CRYPTO token, is an asset that has been built on top of the blockchain of another cryptocurrency.
+ERC stands for Ethereum Request for Comment, and 20 is the proposal identifier number.
+An ERC20 token is a standardized token (technical standard), which states a token to be a value-having blockchain asset that can be sent or received via Ethereum’s blockchain network. It uses gas as transaction fee.
+ALGORITHM FOR SMART CONTRACT:
+Step 1: //SPDX-License-Identifier: MIT
+Step 2: Compatible pragma version (currently 0.8.19+)
+Step 3: ERC Token Standard #20 Interface called, which declares a set of prerequisite functions.
+Step 4: Transfer and Approval events called which emit externally.
+Step 5: Contract implements ERC Token Standard #20 Interface.
+Step 6: State variables declared.
+Step 7: State variables defined in constructor() function.
+Step 8: prerequisite are functions defined and will be called during program execution.
