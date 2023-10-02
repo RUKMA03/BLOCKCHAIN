@@ -1,0 +1,15 @@
+ERC721 TOKEN
+
+ERC721 is a technical standard for the deployment of ‘Non-Fungible Tokens’, or, NFTs. A Non-Fungible token is a type of token that is unique. They are differentiated on the blockchain by different code and metadata for each NFT.
+However, NFTs need not only be ERC721 type; they can be ERC1155 type also.
+ALGORITHM FOR SMART CONTRACT:
+Step 1: //SPDX-License-Identifier: MIT
+Step 2: Compatible pragma version (currently 0.8.19+)
+Step 3: IERC165, a meta-interface, is called
+Step 4: IERC721 inherits IERC165.
+Step 5: IERC721 declares set of prerequisite functions.
+Step 6: Interface IERC721Receiver is called.
+Step 7: contract is created, which implements IERC721.
+Step 8: Externally emitting events; Transfer, Approval and ApprovalForAll utilised.
+Step 9: Mappings to identify Owner, count number of NFTs, and record permissions are created.
+Step 10: All declared functions are given definition and then will be called during program execution.
